@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @SpringBootApplication
-@Profile("dev")
 public class MusicRest implements ApplicationListener<ContextRefreshedEvent>{
 
 	public static void main(String[] args) {
