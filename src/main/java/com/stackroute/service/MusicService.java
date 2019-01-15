@@ -9,14 +9,14 @@ import java.util.Optional;
 
 public interface MusicService {
 
-    public MusicTrack saveTrack(MusicTrack music) throws TrackAlreadyExists;
+    MusicTrack saveTrack(MusicTrack music) throws TrackAlreadyExists;
 
-    public List<MusicTrack> displayTracks() throws TrackNotFoundException;
+    List<MusicTrack> displayTracks() throws TrackNotFoundException;
 
-    public MusicTrack updateComments(int id,MusicTrack music) throws TrackNotFoundException;
+    MusicTrack updateComments(int id,MusicTrack music) throws TrackNotFoundException;
 
-    public Optional deleteById(int id) throws TrackNotFoundException;
+    Optional deleteById(int id) throws TrackNotFoundException;
 
-    public List<MusicTrack> searchByTrackName(MusicTrack music) throws TrackNotFoundException;
+    List<MusicTrack> searchByTrackName(MusicTrack music) throws TrackNotFoundException;
 
 }

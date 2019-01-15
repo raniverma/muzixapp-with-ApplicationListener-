@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class MusicDBService implements MusicService{
+public class MusicServiceImpl implements MusicService{
 
     @Autowired
     private MusicRepository musicRepository;

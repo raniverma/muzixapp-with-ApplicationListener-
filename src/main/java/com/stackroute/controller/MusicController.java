@@ -12,10 +12,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-//@RequestMapping(
-//
-//)
-//Use an interface that can be implemented by UserService and UserAWSService
+
+//Main controller
 
 @RestController
 @RequestMapping("api/v1/")
